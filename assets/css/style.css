@@ -11,12 +11,35 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+    2px 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
   background: transparent;
   cursor: url('138256.png'), auto;
 }
-
 
 
 body::before {
@@ -38,11 +61,11 @@ body::before {
 }
 
 a {
-  color: #1c7d32;
+  color: #63eda3;
 }
 
 a:hover {
-  color: #1c7d32;
+  color: #63eda3;
   text-decoration: none;
 }
 
@@ -137,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #39924d;
+  background: #63eda3;
 }
 
 @media (max-width: 992px) {
@@ -193,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #8fce00;
+  background-color: #63eda3;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -292,14 +315,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* Header Top */
 #header.header-top {
   height: 90px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  background: #babdc1;
+  background-image: url('checkere.png'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: 100% auto; /* Adjust background size as needed */
+
+  background-repeat: no-repeat; /* Prevent image repetition */
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -330,9 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .aboutimage {
-    position: absolute;
-    top: -1; /* Adjust the distance from the top as needed */
-    right: -350px; /* Adjust the distance from the right as needed */
+
     width: 250%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     transition: ease-in-out 0.3s;
@@ -383,8 +406,31 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  color: #63eda3;
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -520,7 +566,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #8d9090cc;
+  background: #a7b2c180;
   transition: ease-in-out 0.3s;
 }
 
@@ -541,7 +587,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #babdc1cc;
+  background: #c5d0df80;
 }
 
 /*--------------------------------------------------------------
@@ -570,7 +616,7 @@ section .container {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #9999;
   margin: 0 0 0 45px;
 }
 
@@ -618,7 +664,7 @@ section .container {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #1c7d32 !important;
+  background-color: #1c7d32;
 }
 
 @media (max-width: 767px) {
@@ -693,7 +739,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #babdc199;
+  background: #a7b2c180;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -738,7 +784,7 @@ section .container {
 }
 
 .services .icon-box h4 a {
-  color: #fff99;
+  color: #ffff99;
 }
 
 .services .icon-box p {
@@ -748,7 +794,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #8d909099;
+  background: #c5d0df80;
   border-color: #39924d;
 }
 
@@ -879,7 +925,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #ffffff;
+  color: #fff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -929,10 +975,10 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #44444499;
+  color: #444444;
   padding: 20px;
   width: 100%;
-  background: #babdc199;
+  background: #a7b2c180;
 }
 
 .contact .info-box i.bx {
