@@ -331,12 +331,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .aboutimage {
     position: absolute;
-    top: 0; /* Adjust the distance from the top as needed */
+    top: -1; /* Adjust the distance from the top as needed */
     right: -350px; /* Adjust the distance from the right as needed */
     width: 250%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     transition: ease-in-out 0.3s;
-    padding: 90px;
+    padding: 80px;
 }
 
 
