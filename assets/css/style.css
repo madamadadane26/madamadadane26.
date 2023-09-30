@@ -36,22 +36,19 @@ body {
     2px -1px 0 #000,
     -2px -1px 0 #000;
     2px 2px 4px rgba(0, 0, 0, 0.5);
-  position: relative;
-  background: transparent;
-  cursor: url('138256.png'), auto;
+  background: #babdc1;
 }
-
 
 body::before {
   content: "";
+  position: fixed;
   background-image: url('bgg.png');
+  background-repeat: repeat;
   background-size: cover;
   left: 0;
-  background-repeat: repeat; 
   right: 0;
   top: 0;
   height: 100vh;
-  cursor: url('138256.png'), auto;
 }
 
 @media (min-width: 1024px) {
