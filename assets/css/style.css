@@ -37,6 +37,7 @@ body {
     -2px -1px 0 #000;
     2px 2px 4px rgba(0, 0, 0, 0.5);
   background: #C0C0C0;
+
 }
 
 body::before {
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #ed92b0;
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -562,6 +563,7 @@ section .container {
   padding: 20px;
   background: #a7b2c180;
   transition: ease-in-out 0.3s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -737,6 +739,7 @@ section .container {
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .services .icon-box .icon {
@@ -751,6 +754,7 @@ section .container {
   justify-content: center;
   margin-bottom: 20px;
   transform-style: preserve-3d;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .services .icon-box .icon i {
@@ -769,6 +773,7 @@ section .container {
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .services .icon-box h4 {
@@ -779,6 +784,7 @@ section .container {
 
 .services .icon-box h4 a {
   color: #ffff99;
+
 }
 
 .services .icon-box p {
@@ -790,14 +796,18 @@ section .container {
 .services .icon-box:hover {
   background: #c5d0df80;
   border-color: #39924d;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .services .icon-box:hover .icon {
   background: #fff99;
+
 }
 
 .services .icon-box:hover .icon i {
   color: #39924d;
+
 }
 
 .services .icon-box:hover .icon::before {
@@ -806,6 +816,7 @@ section .container {
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #39924d;
+
 }
 
 /*--------------------------------------------------------------
@@ -813,6 +824,9 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+
+
+
 }
 
 .portfolio #portfolio-flters {
@@ -866,6 +880,7 @@ section .container {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -973,6 +988,7 @@ section .container {
   padding: 20px;
   width: 100%;
   background: #a7b2c180;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .contact .info-box i.bx {
