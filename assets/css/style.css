@@ -36,7 +36,7 @@ body {
     2px -1px 0 #000,
     -2px -1px 0 #000;
     2px 2px 4px rgba(0, 0, 0, 0.5);
-  background: #babdc1;
+  background: #C0C0C0;
 }
 
 body::before {
@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #babdc1;
+  background: #C0C0C0;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
